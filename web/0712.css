@@ -1,0 +1,95 @@
+/* reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset end */
+
+h1 { 
+color: #AFEEEE;
+font-size: 4rem;
+font-family: 'Modak', cursive;
+text-align: center;
+text-shadow: 3px 3px 10px #403c3c; /* X位移 Y位移 模糊度 顏色 */
+} 
+p{
+    text-align:center;
+    line-height:2rem;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: 'Indie Flower','ZCOOL KuaiLe', cursive;
+    font-weight: bold;
+}
+a{
+    font-size: 22px;
+    font-family: 'Indie Flower', cursive;
+}
+.link{
+    text-decoration: none;
+    color: rgb(193, 151, 216);
+}
+body{
+    background: #FFFFF0;
+}
+.page-title{
+    text-decoration:underline;
+    
+}
+.yangyang{
+    font-size: 26px;
+}
+#title{
+    text-align: center;/* 註解 */
+}
+div{
+    background:#efbef4 url(eNP9xkL0mW.jpg) no-repeat fixed center center;
+    background-size: cover;
+   /*  width: 100vw;  *//*  可視範圍的寬度 */ 
+   /*  height: 100vh;  *//*  可視範圍的高度 */ 
+
+}

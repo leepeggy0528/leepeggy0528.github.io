@@ -1,0 +1,20 @@
+.pic-block{
+    margin-left: -10rem;
+}
+.text-block{
+    z-index: 2;
+    background: rgba(255,255,255,0,75);
+}
+.p-100{
+    padding: 50px;
+    border: 10px solid #000;
+}
+.text-b{
+    font-weight: 400;
+}
+.text-c{
+   background: linear-gradient(90deg, rgba(245,161,161,1) 0%, rgba(251,187,255,1) 47%, rgba(161,234,249,1) 100%);
+}
+.b{
+    background:  linear-gradient(90deg, rgba(233,203,255,0.7035189075630253) 0%, rgba(187,255,251,0.8099614845938375) 47%, rgba(161,249,198,0.773546918767507) 100%);
+}
